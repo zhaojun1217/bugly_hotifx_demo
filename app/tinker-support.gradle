@@ -35,7 +35,7 @@ tinkerSupport {
 //    baseApkResourceMapping = "${bakPath}/${baseApkDir}/app-release-R.txt"
 
     // 构建基准包和补丁包都要指定不同的tinkerId，并且必须保证唯一性
-    tinkerId = "1.0.1-patch"
+    tinkerId = "1.0.1-patchtest3"
 
     // 构建多渠道补丁时使用
     // buildAllFlavorsDir = "${bakPath}/${baseApkDir}"
@@ -58,7 +58,7 @@ tinkerSupport {
  */
 tinkerPatch {
     //oldApk ="${bakPath}/${appName}/app-release.apk"
-    ignoreWarning = false
+    ignoreWarning = true
     useSign = true
     dex {
         dexMode = "jar"

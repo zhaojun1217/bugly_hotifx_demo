@@ -14,8 +14,17 @@
         android:layout_centerInParent="true" />
 
     <TextView
+        android:id="@+id/tvSetText"
         android:layout_width="match_parent"
         android:text="lala3333333344lala"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="100dp"
         android:layout_height="wrap_content"/>
 
 </RelativeLayout>

@@ -36,7 +36,6 @@ public class MyApplicationLike extends DefaultApplicationLike {
         MultiDex.install(base);
 
         // 安装tinker
-        // TinkerManager.installTinker(this); 替换成下面Bugly提供的方法
         Beta.installTinker(this);
     }
 
